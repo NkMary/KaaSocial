@@ -13,16 +13,16 @@ export default function Navbar() {
         </div>
         <div>
             <div className='searchInputContainer'>
-                <img src={`${searchIcon}`} className="Icons" alt=""/> 
-                <input type="text" name="" id="" />
+                <img src={`${searchIcon}`} className="searchIcon" alt=""/> 
+                <input type="text" className='searchInput' placeholder='Find people from Abiriba' name="" id="" />
             </div>
         </div>
         <div className='IconsContainer'>
             <img src={`${notificationIcon}`} className="Icons" alt=""/> 
             <img src={`${messageIcon}`} className="Icons" alt=""/> 
-            <div>
+            <div style={{display:'flex', alignItems: 'center'}}>
                 <img src={`${profileIcon}`} className="ProfileImage" alt=""/> 
-                <p>Nk</p>
+                <p style={{marginLeft: '5px'}}>Nk</p>
             </div>
         </div>
     

@@ -1,0 +1,10 @@
+.home{
+    background-color: sandybrown;
+    height: 100vh;
+}
+
+.ComponentContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
