@@ -6,6 +6,8 @@ import houston from "../Images/houston.png"
 import chicago from "../Images/chicago.png"
 import la from "../Images/la.png"
 import atlanta from "../Images/atlanta.png"
+import igwamang from "../Images/igwamang.png"
+import woman from "../Images/woman.png"
 
 export default function Leftbar() {
   return (
@@ -18,7 +20,7 @@ export default function Leftbar() {
           <div style={{display:'flex', alignItems: 'center', marginTop:-10}}>
               <img src={`${nelson}`} className="notificationimg" alt=""/> 
               <p style={{marginLeft:'5px', color:"#a0561f", fontSize:13, textAlign:"start", width: "120px"}}>Nelson likes your post</p>
-              <img src={`${nelson}`} className="likeimage" alt=""/> 
+              <img src={`${atlanta}`} className="likeimage" alt=""/> 
           </div>
           <div style={{display:'flex', alignItems: 'center', marginTop:-10}}>
               <img src={`${nelson}`} className="notificationimg" alt=""/> 
@@ -28,27 +30,27 @@ export default function Leftbar() {
           <div style={{display:'flex', alignItems: 'center', marginTop:-10}}>
               <img src={`${nelson}`} className="notificationimg" alt=""/> 
               <p style={{marginLeft:'5px', color:"#a0561f", fontSize:13, textAlign:"start", width: "120px"}}>Nelson likes your post</p>
-              <img src={`${nelson}`} className="likeimage" alt=""/> 
+              <img src={`${igwamang}`} className="likeimage" alt=""/> 
           </div>
           <div style={{display:'flex', alignItems: 'center', marginTop:-10}}>
               <img src={`${nelson}`} className="notificationimg" alt=""/> 
               <p style={{marginLeft:'5px', color:"#a0561f", fontSize:13, textAlign:"start", width: "120px"}}>Nelson likes your post</p>
-              <img src={`${nelson}`} className="likeimage" alt=""/> 
+              <img src={`${chicago}`} className="likeimage" alt=""/> 
           </div>
           <div style={{display:'flex', alignItems: 'center', marginTop:-10}}>
-              <img src={`${nelson}`} className="notificationimg" alt=""/> 
-              <p style={{marginLeft:'5px', color:"#a0561f", fontSize:13, textAlign:"start", width: "120px"}}>Nelson started following you</p>
-              <img src={`${nelson}`} className="followinguserimage" alt=""/> 
-          </div>
-          <div style={{display:'flex', alignItems: 'center', marginTop:-10}}>
-              <img src={`${nelson}`} className="notificationimg" alt=""/> 
-              <p style={{marginLeft:'5px', color:"#a0561f", fontSize:13, textAlign:"start", width: "120px"}}>Nelson likes your post</p>
-              <img src={`${nelson}`} className="likeimage" alt=""/> 
+              <img src={`${woman}`} className="notificationimg" alt=""/> 
+              <p style={{marginLeft:'5px', color:"#a0561f", fontSize:13, textAlign:"start", width: "120px"}}>Uche started following you</p>
+              <img src={`${woman}`} className="followinguserimage" alt=""/> 
           </div>
           <div style={{display:'flex', alignItems: 'center', marginTop:-10}}>
               <img src={`${nelson}`} className="notificationimg" alt=""/> 
               <p style={{marginLeft:'5px', color:"#a0561f", fontSize:13, textAlign:"start", width: "120px"}}>Nelson likes your post</p>
-              <img src={`${nelson}`} className="likeimage" alt=""/> 
+              <img src={`${atlanta}`} className="likeimage" alt=""/> 
+          </div>
+          <div style={{display:'flex', alignItems: 'center', marginTop:-10}}>
+              <img src={`${nelson}`} className="notificationimg" alt=""/> 
+              <p style={{marginLeft:'5px', color:"#a0561f", fontSize:13, textAlign:"start", width: "120px"}}>Nelson likes your post</p>
+              <img src={`${houston}`} className="likeimage" alt=""/> 
           </div>
          
           

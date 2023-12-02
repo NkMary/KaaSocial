@@ -36,3 +36,12 @@
     margin-left: 35px;
     border-radius: 3px;
 }
+
+.chaptersimg{
+    width: 165px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    
+
+}
