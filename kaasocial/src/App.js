@@ -11,7 +11,6 @@ function App() {
       <Leftbar/>
       <Mainpost/>
       <Rightbar />
-
     </div>
   );
 }
