@@ -13,7 +13,7 @@
     align-items: center;
     flex: 4;
     margin-top: 9px;
-    background-color: rgb(224, 228, 232);
+    background-color: #f6f2ef;
     padding: 5px;
     border-radius: 10px;
 }
@@ -50,5 +50,5 @@
     border: none;
     padding: 4px;
     border-radius: 10px;
-    background-color: rgb(224, 228, 232);
+    background-color: #f6f2ef;
 }

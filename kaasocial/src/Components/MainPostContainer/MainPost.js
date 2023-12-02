@@ -3,8 +3,6 @@ import './mainPost.css'
 
 export default function MainPost() {
   return (
-    <div>
-        <MainPost />
-    </div>
+    <div className='mainPostContainer'>MainPost</div>
   )
 }
