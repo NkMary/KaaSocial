@@ -21,6 +21,7 @@
     width: 450px;
     height: 450px;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 .iconsforpost{
@@ -30,6 +31,6 @@
 
 .moreoptionsicon{
     width: 20px;
-    margin-left: 380px;
+    margin-left: 350px;
 
 }

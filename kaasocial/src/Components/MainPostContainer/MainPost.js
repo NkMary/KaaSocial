@@ -8,6 +8,7 @@ export default function MainPost() {
     <div className='mainPostContainer'>
       <ContentPost />
       <Post/ >
+      <Post/ >
   
     </div>
   )
