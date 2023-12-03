@@ -1,6 +1,6 @@
 # KAAsocial
 
-KAAsocial is a social media app for the Abiriba community. It allows users to connect, network, learn Igbo language and culture, and shop local made items from the marketplace.
+KAAsocial is a social media app for the Abiriba community. It allows users to connect, network, learn Abiriba language and culture, and shop local made items from the marketplace.
 
 ## Technologies
 
