@@ -10,6 +10,8 @@ import anotherlikeicon from "../Images/anotherlikeicon.png"
 export default function Post() {
     const[Like, setLike] = useState(likeicon);
     const[count, setCount]= useState(10);
+    const[Comments, setComments]= useState([]);
+    const[commentwriting, setcommentwriting] = useState('')
 
     const handleLike=()=>{
         if(Like === likeicon){
@@ -19,6 +21,21 @@ export default function Post() {
             setLike(likeicon)
             setCount(count-1);
         }
+    }
+
+    const addComment = ()=>{
+        const comment = {
+            "id": "683fkfnaskmfkf9nd9fmnfn443",
+            "username": "NK",
+            "title": `${commentwriting}`
+        }
+        setComments(Comments.concat(comment));
+    }
+
+    const handleComment= ()=>{
+       addComment()
+
+    console.log(Comments)
     }
         return (
             <div className='PostContainer'>
@@ -54,7 +71,8 @@ export default function Post() {
                     <div style={{display:"flex", alignItems:"center"}}>
                         <img src={`${profileIcon}`} className='postImage' alt='' />
                         <p style={{marginLeft:"5px"}}></p>
-                        <input type="text" className='commentinput' placeholder='Write your thoughts' />
+                        <input type="text" className='commentinput' placeholder='Write your thoughts' onChange={(e)=>setcommentwriting(e.target.value)} />
+                        <button className='addCommentbtn' onClick={handleComment}>Add Comment</button>
                     </div>
                 </div>
             </div>
