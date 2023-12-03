@@ -11,7 +11,8 @@ export default function Post() {
     const[Like, setLike] = useState(likeicon);
     const[count, setCount]= useState(10);
     const[Comments, setComments]= useState([]);
-    const[commentwriting, setcommentwriting] = useState('')
+    const[commentwriting, setcommentwriting] = useState('');
+    const[show, setShow] = useState(false);
 
     const handleLike=()=>{
         if(Like === likeicon){
@@ -35,7 +36,7 @@ export default function Post() {
     const handleComment= ()=>{
        addComment()
 
-    console.log(Comments)
+    /* console.log(Comments)*/
     }
         return (
             <div className='PostContainer'>
@@ -68,11 +69,23 @@ export default function Post() {
                                 <p style={{marginLeft:"6px"}}>Share</p>
                             </div>
                     </div>
-                    <div style={{display:"flex", alignItems:"center"}}>
-                        <img src={`${profileIcon}`} className='postImage' alt='' />
-                        <p style={{marginLeft:"5px"}}></p>
-                        <input type="text" className='commentinput' placeholder='Write your thoughts' onChange={(e)=>setcommentwriting(e.target.value)} />
-                        <button className='addCommentbtn' onClick={handleComment}>Add Comment</button>
+                    <div>
+                        <div style={{display:"flex", alignItems:"center"}}>
+                                <img src={`${profileIcon}`} className='postImage' alt='' />
+                                <p style={{marginLeft:"5px"}}></p>
+                                <input type="text" className='commentinput' placeholder='Write your thoughts' onChange={(e)=>setcommentwriting(e.target.value)} />
+                                <button className='addCommentbtn' onClick={handleComment}>Post</button>
+                        </div>
+                        {Comments.map((item)=>(
+                        <div style={{alignItems:"center"}}>
+                            <div style={{display:"flex", alignItems:"center"}}>
+                                <img src={`${profileIcon}`} className='postImage' alt='' />
+                                <p style={{marginLeft:"5px", fontSize:12, marginTop:10 }}>{item.username}</p>
+                            </div>
+                                <p style={{marginLeft: "45px", textAlign:'start', marginTop:2}}>{item.title}</p>
+                                <p style={{marginLeft: "45px", textAlign:'start', marginTop:10, color: "#a0561f", fontSize:14}}>Reply</p>
+                        </div>
+                        ))}
                     </div>
                 </div>
             </div>
