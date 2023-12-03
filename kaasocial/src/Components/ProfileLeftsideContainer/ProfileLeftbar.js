@@ -8,16 +8,30 @@ import la from "../Images/la.png"
 import atlanta from "../Images/atlanta.png"
 import igwamang from "../Images/igwamang.png"
 import woman from "../Images/woman.png"
+import profileIcon from "../Images/profileIcon.png"
 
 export default function ProfileLeftbar() {
   return (
     <div className='ProfileLeftbar'>
         <div className='NotificationsContainer'>
-            <div>
-                <img src={`${atlanta}`} className="chaptersimg" alt=""/> 
-                <p style={{ color: "#a0561f" }}>See all</p>
+            <img src={`${igwamang}`} className="profilepageCover" alt=""/> 
+            <div style={{display: 'flex', alignItems: 'center', marginTop:-25 }}>
+                <img src={`${woman}`} className="profilepageimg" alt=""/> 
+                <div>
+                  <p style={{ color: "#f6f2ef", marginLeft:6, marginTop:20, textAlign:'start' }}>NK</p>
+                  <p style={{ color: "#f6f2ef", marginLeft:6, marginTop:20, textAlign: 'start', marginTop:-16, fontSize:11 }}>Software Engineer</p>
+                </div>
+                <div>
+                 <p style={{ color: "#f6f2ef", marginLeft:6, marginTop:20, textAlign:'start' }}>Following</p>
+                  <p style={{ color: "#f6f2ef", marginLeft:6, marginTop:20, textAlign: 'start', marginTop:-16, fontSize:11 }}>5678</p>
+                 </div>
+                 <div>
+                 <p style={{ color: "#f6f2ef", marginLeft:6, marginTop:20, textAlign:'start' }}>Followers</p>
+                  <p style={{ color: "#f6f2ef", marginLeft:6, marginTop:20, textAlign: 'start', marginTop:-16, fontSize:11 }}>400</p>
+                 </div>
             </div>
         </div>
+               
 
       <div className='NotificationsContainer'>
         <div style={{ display: 'flex', justifyContent: 'space-around' }}>
