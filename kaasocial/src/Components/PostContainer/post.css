@@ -34,3 +34,11 @@
     margin-left: 350px;
 
 }
+
+.commentinput{
+    width: 15pc;
+    height: 4vh;
+    margin-left: 10px;
+    border: none;
+    background-color: #f6f2ef;
+}
