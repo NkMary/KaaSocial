@@ -1,3 +1,32 @@
 .rightbar{
     flex: 1;
 }
+
+.rightcontainer{
+    width: 20pc;
+    height: 35vh;
+    background-color: #f6f2ef;
+    margin-top: 20px;
+    border-radius: 15px;
+
+}
+
+.eventsimg{
+   width: 300px; 
+   height: 200px;
+   margin-top: -12px;
+   border-radius: 15px;
+}
+
+.profileimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.addfriend{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
