@@ -19,7 +19,7 @@ export default function ContentPost() {
             <img src={`${imageicon}`} className='icons' alt='' />
             <img src={`${emoji}`} className='icons' alt='' />
             <img src={`${videoicon}`} className='icons' alt='' />
-            <button style={{marginLeft:"400px", paddingLeft:"10px", paddingRight:"20px", paddingTop:6, paddingBottom:6, border:"none", backgroundColor: "black", color:"white" }}>Post</button>
+            <button style={{marginLeft:"400px", marginBottom:"10px", paddingLeft:"10px", paddingRight:"20px", paddingTop:6, paddingBottom:6, border:"none", backgroundColor: "#5f341a", color:"white", borderRadius:"5px", cursor:"pointer"}}>Post</button>
           </div>
         </div>
 
